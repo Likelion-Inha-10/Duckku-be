@@ -2,7 +2,6 @@ import pandas as pd
 import json
 from collections import OrderedDict
 import glob
-import math
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
