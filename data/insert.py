@@ -2,6 +2,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 import glob
+import base64
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
@@ -13,6 +14,11 @@ group_mem_csv=pd.read_csv(group_mem_txt, sep='\t')
 member_list=group_mem_csv['Member']
 group_list=group_mem_csv['Group']
 MEMBER_GROUP={ m:g for m, g in zip(member_list, group_list) }
+
+def imageBase64Encoding(imgSrc): # image to base64 string
+  with open(imgSrc, 'rb') as img:
+    img_base64str = base64.b64encode(img.read())
+  return img_base64str
 
 
 # 아티스트 객체 JSON 데이터 생성
@@ -34,8 +40,8 @@ def makeJsonData_Artist():
       'id' : id,
       'artist_name' : artist,
       'agency' : agency,
-      'artist_image' : glob.glob(f'./img/artist/{id}.jpg'),
-      'logo_image' : glob.glob(f'./img/artist/{id}.jpg'), # 추후 로고 이미지로 변경 필요
+      'artist_image' : imageBase64Encoding(f'./img/artist/{id}.jpg'),
+      'logo_image' : imageBase64Encoding(f'./img/artist/{id}.jpg'), # 추후 로고 이미지로 변경 필요
       'gradient_color_1' : color1,
       'gradient_color_2' : color2,
     }
@@ -77,7 +83,7 @@ def makeJsonData_Album():
       'created_at' : f"{year}-{month}-1",
       'artist' : ARTIST_ID.get(artist), # fk
       'album_type' : albumType,
-      'album_image' : glob.glob(f'./img/album/{id}.jpg'),
+      'album_image' : imageBase64Encoding(f'./img/album/{id}.jpg'),
       'music_list' : '',
       'price_with_ticket' : priceWithT,
       'price_without_ticket' : priceWithout,
