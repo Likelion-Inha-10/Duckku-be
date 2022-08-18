@@ -2,6 +2,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 import glob
+import random
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
@@ -51,29 +52,34 @@ def makeJsonData_Album():
   album_data_list=[]
   album_xlsx=pd.read_excel('album.xlsx')
   
+  album_id_list=album_xlsx['번호']
   album_name_list=album_xlsx['앨범명']
   agency_list=album_xlsx['소속사']
   created_year_list=album_xlsx['발매년도']
   created_month_list=album_xlsx['발매월']
-  artist_list=album_xlsx['아티스트']
-  music_list=album_xlsx['수록곡목록']
-  price_withT_list=album_xlsx['응모권포함가격']
-  price_withoutT_list=album_xlsx['응모권미포함가격']
   album_type_list=album_xlsx['앨범 종류']
+  artist_list=album_xlsx['아티스트']
+  # music_list=album_xlsx['수록곡목록']
+  price_withT_list=album_xlsx['응모권 포함 가격']
+  price_withoutT_list=album_xlsx['응모권 포함 X 가격']
+  image_list=glob.glob(f'./img/album/*.jpg') # 경로 확인 필요
 
-  for album, agency, artist, albumType, year, month, music, priceWithT, priceWithout in zip(album_name_list, agency_list, 
+  for id, album, agency, artist, albumType, year, month, priceWithT, priceWithout, img in zip(album_id_list, album_name_list, agency_list, 
   artist_list, album_type_list, 
-  created_year_list, created_month_list, 
-  music_list, price_withT_list, price_withoutT_list):
+  created_year_list, created_month_list, # music_list,
+  price_withT_list, price_withoutT_list, image_list):
+
     album_data=OrderedDict()
     album_data["model"]="album.Album"
     album_data["fields"]={
+      'id' : id,
       'name' : album,
       'agency' : agency,
-      'created_at' : f"{year}-{month}-1 00:00:00",
-      'artist' : ARTIST_ID[artist], # fk
-      'album_image' : '',
-      'music_list' : music,
+      'created_at' : f"{year}-{month}-1",
+      'artist' : ARTIST_ID.get(artist), # fk
+      'album_type' : albumType,
+      'album_image' : glob.glob(f'./img/album/{id}.jpg'),
+      'music_list' : '',
       'price_with_ticket' : priceWithT,
       'price_without_ticket' : priceWithout,
     }
@@ -102,11 +108,10 @@ def makeJsonData_Photocard():
         photocard_data["model"]="album.Photocard"
         photocard_data["fields"]={
           'id' : 1,
-          'album_id' : album, # fk
+          'album_id' : random.randrange(2, 30), # fk
           'artist' : MEMBER_GROUP[name], # fk
           'img' : Photoimg,
           'name' : name,
-          'album_image' : '',
         }
         # if name not in ALL_MEMBERS: ALL_MEMBERS.append(Photoimg[16:-5])
         photocard_data_list.append(photocard_data)
@@ -116,6 +121,6 @@ def makeJsonData_Photocard():
 
 
 # 각 모델에 대해 makeJsonData 함수 실행
-makeJsonData_Artist()
+#makeJsonData_Artist()
 makeJsonData_Album()
 makeJsonData_Photocard()
