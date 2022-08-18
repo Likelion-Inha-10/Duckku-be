@@ -7,6 +7,7 @@ import random
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
 ARTIST_ID={} # 아티스트 PK
+MUSIC_ALBUM={}
 
 group_mem_txt=open('group_members.txt','r')
 group_mem_csv=pd.read_csv(group_mem_txt, sep='\t')
@@ -47,7 +48,7 @@ def makeJsonData_Artist():
 
 
 
-# 앨범 객체 JSON 데이터 생성
+# 앨범, 수록곡 객체 JSON 데이터 생성
 def makeJsonData_Album():
   album_data_list=[]
   album_xlsx=pd.read_excel('album.xlsx')
@@ -59,7 +60,6 @@ def makeJsonData_Album():
   created_month_list=album_xlsx['발매월']
   album_type_list=album_xlsx['앨범 종류']
   artist_list=album_xlsx['아티스트']
-  # music_list=album_xlsx['수록곡목록']
   price_withT_list=album_xlsx['응모권 포함 가격']
   price_withoutT_list=album_xlsx['응모권 포함 X 가격']
   image_list=glob.glob(f'./img/album/*.jpg') # 경로 확인 필요
@@ -82,6 +82,7 @@ def makeJsonData_Album():
       'music_list' : '',
       'price_with_ticket' : priceWithT,
       'price_without_ticket' : priceWithout,
+      'music_list' : list
     }
     album_data_list.append(album_data)
   
@@ -105,14 +106,16 @@ def makeJsonData_Music():
   print(music_name_list, music_playtime_list, album_name_list)
 
   for music, playtime, album in zip(music_name_list, music_playtime_list, album_name_list):
-    if(music!='NaN'):
+    if(music != 'nan'):
       music_data=OrderedDict()
       music_data["model"]="album.Music"
       music_data["fields"]={
         'music_name' : music,
         'play_time' : playtime,
       }
-      music
+      music_data_list.append(music_data)
+
+  print(music_data_list)
   
 
 
