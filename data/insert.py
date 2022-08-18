@@ -89,6 +89,32 @@ def makeJsonData_Album():
     json.dump(album_data_list, make_file, ensure_ascii=False, indent="\t")
 
 
+# 수록곡 객체 JSON 데이터 생성 
+def makeJsonData_Music():
+  music_data_list=[]
+  music_xlsx=pd.read_excel('album.xlsx')
+  music_name_list=[]
+  music_playtime_list=[]
+  album_name_list=[]
+
+  for i in range(1, 8): 
+    music_name_list.extend(music_xlsx[f'수록곡{i}'])
+    music_playtime_list.extend(music_xlsx[f'재생시간{i}'])
+    album_name_list.extend(music_xlsx['앨범명'])
+
+  print(music_name_list, music_playtime_list, album_name_list)
+
+  for music, playtime, album in zip(music_name_list, music_playtime_list, album_name_list):
+    if(music!='NaN'):
+      music_data=OrderedDict()
+      music_data["model"]="album.Music"
+      music_data["fields"]={
+        'music_name' : music,
+        'play_time' : playtime,
+      }
+      music
+  
+
 
 # 포토카드 객체 JSON 데이터 생성
 def makeJsonData_Photocard():
@@ -121,6 +147,7 @@ def makeJsonData_Photocard():
 
 
 # 각 모델에 대해 makeJsonData 함수 실행
-makeJsonData_Artist()
-makeJsonData_Album()
-makeJsonData_Photocard()
+#makeJsonData_Artist()
+makeJsonData_Music()
+#makeJsonData_Album()
+#makeJsonData_Photocard()
