@@ -25,7 +25,7 @@ def makeJsonData_Artist():
   agency_list=artist_xlsx['agency']
   color1_list=artist_xlsx['color1']
   color2_list=artist_xlsx['color2']
-  image_list=glob.glob('./img/artist/*.jpg') # 경로 확인 필요
+  image_list=glob.glob('/img/artist/*.jpg') # 경로 확인 필요
 
   for id, artist, agency, img, color1, color2 in zip(id_list, artist_list, agency_list, image_list, color1_list, color2_list):
     artist_data=OrderedDict()
@@ -121,6 +121,6 @@ def makeJsonData_Photocard():
 
 
 # 각 모델에 대해 makeJsonData 함수 실행
-#makeJsonData_Artist()
+makeJsonData_Artist()
 makeJsonData_Album()
 makeJsonData_Photocard()
