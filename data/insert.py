@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 import glob
-import base64
+import random
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
@@ -15,11 +15,6 @@ member_list=group_mem_csv['Member']
 group_list=group_mem_csv['Group']
 MEMBER_GROUP={ m:g for m, g in zip(member_list, group_list) }
 
-def imageBase64Encoding(imgSrc): # image to base64 string
-  with open(imgSrc, 'rb') as img:
-    img_base64str = base64.b64encode(img.read())
-  return img_base64str
-
 
 # 아티스트 객체 JSON 데이터 생성
 def makeJsonData_Artist():
@@ -31,7 +26,7 @@ def makeJsonData_Artist():
   agency_list=artist_xlsx['agency']
   color1_list=artist_xlsx['color1']
   color2_list=artist_xlsx['color2']
-  image_list=glob.glob('/img/artist/*.jpg') # 경로 확인 필요
+  image_list=glob.glob('/media/artist_img/*.jpg') # 경로 확인 필요
 
   for id, artist, agency, img, color1, color2 in zip(id_list, artist_list, agency_list, image_list, color1_list, color2_list):
     artist_data=OrderedDict()
@@ -40,8 +35,8 @@ def makeJsonData_Artist():
       'id' : id,
       'artist_name' : artist,
       'agency' : agency,
-      'artist_image' : imageBase64Encoding(f'./img/artist/{id}.jpg'),
-      'logo_image' : imageBase64Encoding(f'./img/artist/{id}.jpg'), # 추후 로고 이미지로 변경 필요
+      'artist_image' : f'/media/artist_img/{id}.jpg',
+      'logo_image' : f'/media/artist_img/{id}.jpg', # 추후 로고 이미지로 변경 필요
       'gradient_color_1' : color1,
       'gradient_color_2' : color2,
     }
@@ -67,7 +62,7 @@ def makeJsonData_Album():
   artist_list=album_xlsx['아티스트']
   price_withT_list=album_xlsx['응모권 포함 가격']
   price_withoutT_list=album_xlsx['응모권 포함 X 가격']
-  image_list=glob.glob(f'./img/album/*.jpg') # 경로 확인 필요
+  image_list=glob.glob(f'/media/sang_album_img/*.jpg') # 경로 확인 필요
 
   for id, album, agency, artist, albumType, year, month, priceWithT, priceWithout, img in zip(album_id_list, album_name_list, agency_list, 
   artist_list, album_type_list, 
@@ -83,7 +78,7 @@ def makeJsonData_Album():
       'created_at' : f"{year}-{month}-1",
       'artist' : ARTIST_ID.get(artist), # fk
       'album_type' : albumType,
-      'album_image' : imageBase64Encoding(f'./img/album/{id}.jpg'),
+      'album_image' : f'/media/sang_album_img/{id}.jpg',
       'music_list' : '',
       'price_with_ticket' : priceWithT,
       'price_without_ticket' : priceWithout,
@@ -126,7 +121,7 @@ def makeJsonData_Music():
 # 포토카드 객체 JSON 데이터 생성
 def makeJsonData_Photocard():
   photocard_data_list=[]
-  image_list=glob.glob('./img/photocard/*.jpg') # 경로 확인 필요
+  image_list=glob.glob('/media/artist_img/*.jpg') # 경로 확인 필요
 
   album_xlsx=pd.read_excel('album.xlsx')
 
@@ -156,5 +151,5 @@ def makeJsonData_Photocard():
 # 각 모델에 대해 makeJsonData 함수 실행
 makeJsonData_Artist()
 makeJsonData_Music()
-#makeJsonData_Album()
-#makeJsonData_Photocard()
+makeJsonData_Album()
+makeJsonData_Photocard()
