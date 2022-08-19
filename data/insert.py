@@ -63,7 +63,7 @@ def makeJsonData_Artist():
     json.dump(artist_data_list, make_file, ensure_ascii=False, indent="\t")
 
 
-# 앨범, 수록곡 객체 JSON 데이터 생성
+# 앨범 객체 JSON 데이터 생성
 def makeJsonData_Album():
   album_data_list=[]
   album_xlsx=pd.read_excel('album.xlsx')
@@ -140,35 +140,36 @@ def makeJsonData_Photocard():
 
   image_list=glob.glob('./img/photocard/*.jpg')
   name_list=[]
-  for i in image_list:
+  for i in range(len(image_list)):
     fullSrc=image_list[i]
     name=fullSrc[16:-5]
-    if name not in name_list: name_list.append()
+    if name not in name_list: name_list.append(name)
 
-  name_list.append(f'{imgUrl}/sang_photocard_img/*')[71:-5] # or 70
+  # name_list.append(f'{imgUrl}/sang_photocard_img/*')[71:-5] # or 70
 
-  i=0
+  i=0 # for indexing pk
   for index in range(6):
-    for album in album_name_list:
+    for i, name, album in zip(name_list, album_name_list):
         photocard_data=OrderedDict()
         photocard_data["model"]="album.Photocard"
         photocard_data["fields"]={
             'id' : id_list[i],
             'artist' : MEMBER_GROUP[name], # fk
             'album_id' : random.choice(MUSIC_ALBUM[MEMBER_GROUP[name]]), # fk
-            'img' : f'{imgUrl}/sang_photocard_img/{name}/{index}',
+            'img' : f'{imgUrl}/sang_photocard_img/{name}'+f'{index}',
             'name' : name,
         }
         if name not in ALL_MEMBERS: ALL_MEMBERS.append(name)
         photocard_data_list.append(photocard_data)
         i+=1
+
       
   with open('photocard-data.json', 'w', encoding="utf-8") as make_file:
     json.dump(photocard_data_list, make_file, ensure_ascii=False, indent="\t")
 
 # 각 모델에 대해 makeJsonData 함수 실행
-makeJsonData_Artist()
-makeJsonData_Music()
-makeJsonData_Album()
-#makeJsonData_Photocard()
+#makeJsonData_Artist()
+#makeJsonData_Music()
+#makeJsonData_Album()
+makeJsonData_Photocard()
 
