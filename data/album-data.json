@@ -1,1 +1,452 @@
-[]
+[
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 1,
+			"name": "이벤트 앨범",
+			"agency": "멋쟁이사자처럼 인하대학교",
+			"created_at": "2022-8-1",
+			"artist": null,
+			"album_type": "이벤트 앨범",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/1.jpg",
+			"price_with_ticket": 220817,
+			"price_without_ticket": 220817,
+			"artist_name": "깃닫고입올려"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 2,
+			"name": "FOREVER 1",
+			"agency": "SM",
+			"created_at": "2022-8-1",
+			"artist": 1,
+			"album_type": "정규 7집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/2.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": "소녀시대"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 3,
+			"name": "Lion Heart",
+			"agency": "SM",
+			"created_at": "2015-8-1",
+			"artist": 1,
+			"album_type": "정규 5집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/3.jpg",
+			"price_with_ticket": 25300,
+			"price_without_ticket": 22300,
+			"artist_name": "소녀시대"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 4,
+			"name": "The ReVe Festival 2022",
+			"agency": "SM",
+			"created_at": "2022-3-1",
+			"artist": 2,
+			"album_type": "미니",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/4.jpg",
+			"price_with_ticket": 21600,
+			"price_without_ticket": 18600,
+			"artist_name": "레드벨벳"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 5,
+			"name": "행복 (Happiness)",
+			"agency": "SM",
+			"created_at": "2014-8-1",
+			"artist": 2,
+			"album_type": "싱글 1집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/5.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": "레드벨벳"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 6,
+			"name": "Queendom",
+			"agency": "SM",
+			"created_at": "2021-8-1",
+			"artist": 2,
+			"album_type": "미니 6집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/6.jpg",
+			"price_with_ticket": 13400,
+			"price_without_ticket": 10400,
+			"artist_name": "레드벨벳"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 7,
+			"name": "Girls",
+			"agency": "SM",
+			"created_at": "2022-7-1",
+			"artist": 3,
+			"album_type": "싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/7.jpg",
+			"price_with_ticket": 21600,
+			"price_without_ticket": 18600,
+			"artist_name": "에스파"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 8,
+			"name": "Next Level",
+			"agency": "SM",
+			"created_at": "2021-5-1",
+			"artist": 3,
+			"album_type": "싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/8.jpg",
+			"price_with_ticket": 22300,
+			"price_without_ticket": 19300,
+			"artist_name": "에스파"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 9,
+			"name": "WINGS",
+			"agency": "HYBE",
+			"created_at": "2016-10-1",
+			"artist": 4,
+			"album_type": "정규 2집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/9.jpg",
+			"price_with_ticket": 22300,
+			"price_without_ticket": 19300,
+			"artist_name": "BTS"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 10,
+			"name": "화양연화 pt2",
+			"agency": "HYBE",
+			"created_at": "2015-11-1",
+			"artist": 4,
+			"album_type": "미니 4집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/10.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "BTS"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 11,
+			"name": "BUTTER",
+			"agency": "HYBE",
+			"created_at": "2022-5-1",
+			"artist": 4,
+			"album_type": "디지털 싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/11.jpg",
+			"price_with_ticket": 22300,
+			"price_without_ticket": 19300,
+			"artist_name": "BTS"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 12,
+			"name": "An Ode",
+			"agency": "HYBE",
+			"created_at": "2019-9-1",
+			"artist": 5,
+			"album_type": "정규 3집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/12.jpg",
+			"price_with_ticket": 15600,
+			"price_without_ticket": 12600,
+			"artist_name": "세븐틴"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 13,
+			"name": "HIT",
+			"agency": "HYBE",
+			"created_at": "2019-8-1",
+			"artist": 5,
+			"album_type": "싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/13.jpg",
+			"price_with_ticket": 14900,
+			"price_without_ticket": 11900,
+			"artist_name": "세븐틴"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 14,
+			"name": "Darling",
+			"agency": "HYBE",
+			"created_at": "2022-4-1",
+			"artist": 5,
+			"album_type": "싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/14.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "세븐틴"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 15,
+			"name": "SQUARE TOW",
+			"agency": "YG",
+			"created_at": "2016-11-1",
+			"artist": null,
+			"album_type": "싱글 2집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/15.jpg",
+			"price_with_ticket": 18600,
+			"price_without_ticket": 15600,
+			"artist_name": "BlackPink"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 16,
+			"name": "How You Like That",
+			"agency": "YG",
+			"created_at": "2020-6-1",
+			"artist": null,
+			"album_type": "선공개 싱글",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/16.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": "BlackPink"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 17,
+			"name": "Feel Special",
+			"agency": "JYP",
+			"created_at": "2019-9-1",
+			"artist": null,
+			"album_type": "미니 9집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/17.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": " Twice"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 18,
+			"name": "SIGNAL",
+			"agency": "JYP",
+			"created_at": "2017-5-1",
+			"artist": null,
+			"album_type": "미니 4집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/18.jpg",
+			"price_with_ticket": 28200,
+			"price_without_ticket": 25200,
+			"artist_name": " Twice"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 19,
+			"name": "Taste of Love",
+			"agency": "JYP",
+			"created_at": "2021-6-1",
+			"artist": null,
+			"album_type": "미니 12집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/19.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": " Twice"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 20,
+			"name": "LOVE DIVE",
+			"agency": "스타쉽",
+			"created_at": "2022-4-1",
+			"artist": null,
+			"album_type": "싱글 2집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/20.jpg",
+			"price_with_ticket": 17900,
+			"price_without_ticket": 14900,
+			"artist_name": "IVE"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 21,
+			"name": "ELEVEN",
+			"agency": "스타쉽",
+			"created_at": "2021-12-1",
+			"artist": null,
+			"album_type": "싱글 1집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/21.jpg",
+			"price_with_ticket": 17900,
+			"price_without_ticket": 14900,
+			"artist_name": "IVE"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 22,
+			"name": "I'M THE TREND",
+			"agency": "큐브",
+			"created_at": "2020-7-1",
+			"artist": null,
+			"album_type": "싱글 3집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/22.jpg",
+			"price_with_ticket": 29700,
+			"price_without_ticket": 26700,
+			"artist_name": "(G)I-DLE"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 23,
+			"name": "I burn",
+			"agency": "큐브",
+			"created_at": "2021-1-1",
+			"artist": null,
+			"album_type": "미니 4집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/23.jpg",
+			"price_with_ticket": 17100,
+			"price_without_ticket": 14100,
+			"artist_name": "(G)I-DLE"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 24,
+			"name": "I NEVER DIE",
+			"agency": "큐브",
+			"created_at": "2022-3-1",
+			"artist": null,
+			"album_type": " 정규 1집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/24.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": "(G)I-DLE"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 25,
+			"name": "꽃갈피",
+			"agency": "이담",
+			"created_at": "2014-5-1",
+			"artist": 12,
+			"album_type": "리메이크 1집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/25.jpg",
+			"price_with_ticket": 17100,
+			"price_without_ticket": 14100,
+			"artist_name": "아이유"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 26,
+			"name": "Love Poem",
+			"agency": "이담",
+			"created_at": "2019-11-1",
+			"artist": 12,
+			"album_type": "미니 5집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/26.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "아이유"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 27,
+			"name": "LILAC",
+			"agency": "이담",
+			"created_at": "2021-3-1",
+			"artist": 12,
+			"album_type": "정규 5집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/27.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "아이유"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 28,
+			"name": "Fatal Love",
+			"agency": "스타쉽",
+			"created_at": "2020-11-1",
+			"artist": null,
+			"album_type": "정규 3집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/28.jpg",
+			"price_with_ticket": 19300,
+			"price_without_ticket": 16300,
+			"artist_name": "MONSTA X"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 29,
+			"name": "SHAPE of LOVE",
+			"agency": "스타쉽",
+			"created_at": "2022-4-1",
+			"artist": null,
+			"album_type": "미니 11집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/29.jpg",
+			"price_with_ticket": 24500,
+			"price_without_ticket": 21500,
+			"artist_name": "MONSTA X"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 30,
+			"name": "'FOLLOW' : FIND YOU ",
+			"agency": "스타쉽",
+			"created_at": "2019-10-1",
+			"artist": null,
+			"album_type": "미니 7집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/30.jpg",
+			"price_with_ticket": 21300,
+			"price_without_ticket": 18300,
+			"artist_name": "MONSTA X"
+		}
+	}
+]

@@ -7,7 +7,6 @@ import random
 
 # https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/1.jpg
 imgUrl='https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com'
-print(len(imgUrl))
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
@@ -45,7 +44,7 @@ def makeJsonData_Artist():
   color1_list=artist_xlsx['color1']
   color2_list=artist_xlsx['color2']
 
-  for id, artist, agency, img, color1, color2 in zip(id_list, artist_list, agency_list, image_list, color1_list, color2_list):
+  for id, artist, agency, color1, color2 in zip(id_list, artist_list, agency_list, color1_list, color2_list):
     artist_data=OrderedDict()
     artist_data["model"]="album.Artist"
     artist_data["fields"]={
@@ -95,10 +94,9 @@ def makeJsonData_Album():
       'artist' : ARTIST_ID.get(artist), # fk
       'album_type' : albumType,
       'album_image' : f'{imgUrl}/sang_album_img/{id}.jpg',
-      'music_list' : '',
       'price_with_ticket' : priceWithT,
       'price_without_ticket' : priceWithout,
-      'music_list' : list
+      'artist_name' : artist
     }
     album_data_list.append(album_data)
   
@@ -140,34 +138,40 @@ def makeJsonData_Photocard():
   for i in range(1, 1000) : id_list.append(i)
 
   album_xlsx=pd.read_excel('album.xlsx')
-
   album_name_list=album_xlsx['앨범명']
   artist_list=album_xlsx['아티스트']
 
-  i=0
-  for album in album_name_list:
-    for img in image_list:
-        photocard_data=OrderedDict()
-        name=img[16:-5]
+  image_list=glob.glob('./img/photocard/*.jpg')
+  name_list=[]
+  for i in image_list:
+    fullSrc=image_list[i]
+    name=fullSrc[16:-5]
+    if name not in name_list: name_list.append()
 
+  name_list.append(f'{imgUrl}/sang_photocard_img/*')[71:-5] # or 70
+
+  i=0
+  for index in range(6):
+    for album in album_name_list:
+        photocard_data=OrderedDict()
         photocard_data["model"]="album.Photocard"
         photocard_data["fields"]={
-          'id' : id_list[i],
-          'artist' : MEMBER_GROUP[name], # fk
-          'album_id' : random.choice(MUSIC_ALBUM[MEMBER_GROUP[name]]), # fk
-          'img' : f'{imgUrl}/sang_photocard_img/',
-          'name' : name,
+            'id' : id_list[i],
+            'artist' : MEMBER_GROUP[name], # fk
+            'album_id' : random.choice(MUSIC_ALBUM[MEMBER_GROUP[name]]), # fk
+            'img' : f'{imgUrl}/sang_photocard_img/{name}/{index}',
+            'name' : name,
         }
-        # if name not in ALL_MEMBERS: ALL_MEMBERS.append(Photoimg[16:-5])
+        if name not in ALL_MEMBERS: ALL_MEMBERS.append(name)
         photocard_data_list.append(photocard_data)
         i+=1
       
-    with open('photocard-data.json', 'w', encoding="utf-8") as make_file:
-      json.dump(photocard_data_list, make_file, ensure_ascii=False, indent="\t")
+  with open('photocard-data.json', 'w', encoding="utf-8") as make_file:
+    json.dump(photocard_data_list, make_file, ensure_ascii=False, indent="\t")
 
 
 # 각 모델에 대해 makeJsonData 함수 실행
-#makeJsonData_Artist()
-#makeJsonData_Music()
-#makeJsonData_Album()
+makeJsonData_Artist()
+makeJsonData_Music()
+makeJsonData_Album()
 #makeJsonData_Photocard()
