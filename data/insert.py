@@ -7,6 +7,7 @@ import random
 
 # https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/1.jpg
 imgUrl='https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com'
+print(len(imgUrl))
 
 ALL_MEMBERS=[]
 MEMBER_GROUP={} # 멤버-그룹 매핑
@@ -108,22 +109,20 @@ def makeJsonData_Album():
 # 수록곡 객체 JSON 데이터 생성 
 def makeJsonData_Music():
   music_data_list=[]
-  music_xlsx=pd.read_excel('album.xlsx').fillna('missing') # NaN 처리
-  music_name_list=[]
-  music_playtime_list=[]
-  music_xlsx['앨범']
+  music_xlsx=pd.read_excel('music.xlsx')
 
-  for i in range(1, 8): 
-    music_name_list.extend(music_xlsx[f'수록곡{i}'])
-    music_playtime_list.extend(music_xlsx[f'재생시간{i}'])
+  music_name_list=music_xlsx['수록곡']
+  music_playtime_list=music_xlsx['재생시간']
+  music_album_list=music_xlsx['앨범번호']
 
-  for music, playtime in zip(music_name_list, music_playtime_list):
+  for music, playtime, album in zip(music_name_list, music_playtime_list, music_album_list):
     if(music!="missing"):
       music_data=OrderedDict()
       music_data["model"]="album.Music"
       music_data["fields"]={
         'music_name' : music,
         'play_time' : str(playtime),
+        'album':album
       }
       music_data_list.append(music_data)
 
@@ -156,7 +155,7 @@ def makeJsonData_Photocard():
           'id' : id_list[i],
           'artist' : MEMBER_GROUP[name], # fk
           'album_id' : random.choice(MUSIC_ALBUM[MEMBER_GROUP[name]]), # fk
-          'img' : f'{imgUrl}/sang_photocard_img/{}',
+          'img' : f'{imgUrl}/sang_photocard_img/',
           'name' : name,
         }
         # if name not in ALL_MEMBERS: ALL_MEMBERS.append(Photoimg[16:-5])
@@ -168,7 +167,7 @@ def makeJsonData_Photocard():
 
 
 # 각 모델에 대해 makeJsonData 함수 실행
-makeJsonData_Artist()
+#makeJsonData_Artist()
 #makeJsonData_Music()
-makeJsonData_Album()
-makeJsonData_Photocard()
+#makeJsonData_Album()
+#makeJsonData_Photocard()
