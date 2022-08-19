@@ -4,16 +4,14 @@
 		"fields": {
 			"id": 1,
 			"name": "이벤트 앨범",
-			"agency": "-",
+			"agency": "멋쟁이사자처럼 인하대학교",
 			"created_at": "2022-8-1",
 			"artist": null,
-			"album_type": "-",
-			"album_image": [
-				"./img/album/1.jpg"
-			],
-			"music_list": "",
-			"price_with_ticket": 3,
-			"price_without_ticket": 0
+			"album_type": "이벤트 앨범",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/1.jpg",
+			"price_with_ticket": 220817,
+			"price_without_ticket": 220817,
+			"artist_name": "깃닫고입올려"
 		}
 	},
 	{
@@ -25,12 +23,10 @@
 			"created_at": "2022-8-1",
 			"artist": 1,
 			"album_type": "정규 7집",
-			"album_image": [
-				"./img/album/2.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/2.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": "소녀시대"
 		}
 	},
 	{
@@ -42,12 +38,10 @@
 			"created_at": "2015-8-1",
 			"artist": 1,
 			"album_type": "정규 5집",
-			"album_image": [
-				"./img/album/3.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/3.jpg",
 			"price_with_ticket": 25300,
-			"price_without_ticket": 22300.0
+			"price_without_ticket": 22300,
+			"artist_name": "소녀시대"
 		}
 	},
 	{
@@ -59,12 +53,10 @@
 			"created_at": "2022-3-1",
 			"artist": 2,
 			"album_type": "미니",
-			"album_image": [
-				"./img/album/4.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/4.jpg",
 			"price_with_ticket": 21600,
-			"price_without_ticket": 18600.0
+			"price_without_ticket": 18600,
+			"artist_name": "레드벨벳"
 		}
 	},
 	{
@@ -76,12 +68,10 @@
 			"created_at": "2014-8-1",
 			"artist": 2,
 			"album_type": "싱글 1집",
-			"album_image": [
-				"./img/album/5.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/5.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": "레드벨벳"
 		}
 	},
 	{
@@ -93,12 +83,10 @@
 			"created_at": "2021-8-1",
 			"artist": 2,
 			"album_type": "미니 6집",
-			"album_image": [
-				"./img/album/6.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/6.jpg",
 			"price_with_ticket": 13400,
-			"price_without_ticket": 10400.0
+			"price_without_ticket": 10400,
+			"artist_name": "레드벨벳"
 		}
 	},
 	{
@@ -110,12 +98,10 @@
 			"created_at": "2022-7-1",
 			"artist": 3,
 			"album_type": "싱글",
-			"album_image": [
-				"./img/album/7.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/7.jpg",
 			"price_with_ticket": 21600,
-			"price_without_ticket": 18600.0
+			"price_without_ticket": 18600,
+			"artist_name": "에스파"
 		}
 	},
 	{
@@ -127,10 +113,10 @@
 			"created_at": "2021-5-1",
 			"artist": 3,
 			"album_type": "싱글",
-			"album_image": [],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/8.jpg",
 			"price_with_ticket": 22300,
-			"price_without_ticket": 19300.0
+			"price_without_ticket": 19300,
+			"artist_name": "에스파"
 		}
 	},
 	{
@@ -142,12 +128,10 @@
 			"created_at": "2016-10-1",
 			"artist": 4,
 			"album_type": "정규 2집",
-			"album_image": [
-				"./img/album/9.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/9.jpg",
 			"price_with_ticket": 22300,
-			"price_without_ticket": 19300.0
+			"price_without_ticket": 19300,
+			"artist_name": "BTS"
 		}
 	},
 	{
@@ -159,12 +143,10 @@
 			"created_at": "2015-11-1",
 			"artist": 4,
 			"album_type": "미니 4집",
-			"album_image": [
-				"./img/album/10.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/10.jpg",
 			"price_with_ticket": 20800,
-			"price_without_ticket": 17800.0
+			"price_without_ticket": 17800,
+			"artist_name": "BTS"
 		}
 	},
 	{
@@ -176,12 +158,10 @@
 			"created_at": "2022-5-1",
 			"artist": 4,
 			"album_type": "디지털 싱글",
-			"album_image": [
-				"./img/album/11.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/11.jpg",
 			"price_with_ticket": 22300,
-			"price_without_ticket": 19300.0
+			"price_without_ticket": 19300,
+			"artist_name": "BTS"
 		}
 	},
 	{
@@ -193,12 +173,10 @@
 			"created_at": "2019-9-1",
 			"artist": 5,
 			"album_type": "정규 3집",
-			"album_image": [
-				"./img/album/12.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/12.jpg",
 			"price_with_ticket": 15600,
-			"price_without_ticket": 12600.0
+			"price_without_ticket": 12600,
+			"artist_name": "세븐틴"
 		}
 	},
 	{
@@ -210,12 +188,10 @@
 			"created_at": "2019-8-1",
 			"artist": 5,
 			"album_type": "싱글",
-			"album_image": [
-				"./img/album/13.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/13.jpg",
 			"price_with_ticket": 14900,
-			"price_without_ticket": 11900.0
+			"price_without_ticket": 11900,
+			"artist_name": "세븐틴"
 		}
 	},
 	{
@@ -227,12 +203,10 @@
 			"created_at": "2022-4-1",
 			"artist": 5,
 			"album_type": "싱글",
-			"album_image": [
-				"./img/album/14.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/14.jpg",
 			"price_with_ticket": 20800,
-			"price_without_ticket": 17800.0
+			"price_without_ticket": 17800,
+			"artist_name": "세븐틴"
 		}
 	},
 	{
@@ -244,12 +218,10 @@
 			"created_at": "2016-11-1",
 			"artist": null,
 			"album_type": "싱글 2집",
-			"album_image": [
-				"./img/album/15.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/15.jpg",
 			"price_with_ticket": 18600,
-			"price_without_ticket": 15600.0
+			"price_without_ticket": 15600,
+			"artist_name": "BlackPink"
 		}
 	},
 	{
@@ -261,12 +233,10 @@
 			"created_at": "2020-6-1",
 			"artist": null,
 			"album_type": "선공개 싱글",
-			"album_image": [
-				"./img/album/16.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/16.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": "BlackPink"
 		}
 	},
 	{
@@ -278,12 +248,10 @@
 			"created_at": "2019-9-1",
 			"artist": null,
 			"album_type": "미니 9집",
-			"album_image": [
-				"./img/album/17.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/17.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": " Twice"
 		}
 	},
 	{
@@ -295,12 +263,10 @@
 			"created_at": "2017-5-1",
 			"artist": null,
 			"album_type": "미니 4집",
-			"album_image": [
-				"./img/album/18.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/18.jpg",
 			"price_with_ticket": 28200,
-			"price_without_ticket": 25200.0
+			"price_without_ticket": 25200,
+			"artist_name": " Twice"
 		}
 	},
 	{
@@ -312,12 +278,10 @@
 			"created_at": "2021-6-1",
 			"artist": null,
 			"album_type": "미니 12집",
-			"album_image": [
-				"./img/album/19.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/19.jpg",
 			"price_with_ticket": 20800,
-			"price_without_ticket": 17800.0
+			"price_without_ticket": 17800,
+			"artist_name": " Twice"
 		}
 	},
 	{
@@ -329,12 +293,10 @@
 			"created_at": "2022-4-1",
 			"artist": null,
 			"album_type": "싱글 2집",
-			"album_image": [
-				"./img/album/20.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/20.jpg",
 			"price_with_ticket": 17900,
-			"price_without_ticket": 14900.0
+			"price_without_ticket": 14900,
+			"artist_name": "IVE"
 		}
 	},
 	{
@@ -346,12 +308,10 @@
 			"created_at": "2021-12-1",
 			"artist": null,
 			"album_type": "싱글 1집",
-			"album_image": [
-				"./img/album/21.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/21.jpg",
 			"price_with_ticket": 17900,
-			"price_without_ticket": 14900.0
+			"price_without_ticket": 14900,
+			"artist_name": "IVE"
 		}
 	},
 	{
@@ -363,12 +323,10 @@
 			"created_at": "2020-7-1",
 			"artist": null,
 			"album_type": "싱글 3집",
-			"album_image": [
-				"./img/album/22.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/22.jpg",
 			"price_with_ticket": 29700,
-			"price_without_ticket": 26700.0
+			"price_without_ticket": 26700,
+			"artist_name": "(G)I-DLE"
 		}
 	},
 	{
@@ -380,12 +338,10 @@
 			"created_at": "2021-1-1",
 			"artist": null,
 			"album_type": "미니 4집",
-			"album_image": [
-				"./img/album/23.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/23.jpg",
 			"price_with_ticket": 17100,
-			"price_without_ticket": 14100.0
+			"price_without_ticket": 14100,
+			"artist_name": "(G)I-DLE"
 		}
 	},
 	{
@@ -397,12 +353,10 @@
 			"created_at": "2022-3-1",
 			"artist": null,
 			"album_type": " 정규 1집",
-			"album_image": [
-				"./img/album/24.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/24.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": "(G)I-DLE"
 		}
 	},
 	{
@@ -414,12 +368,10 @@
 			"created_at": "2014-5-1",
 			"artist": 12,
 			"album_type": "리메이크 1집",
-			"album_image": [
-				"./img/album/25.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/25.jpg",
 			"price_with_ticket": 17100,
-			"price_without_ticket": 14100.0
+			"price_without_ticket": 14100,
+			"artist_name": "아이유"
 		}
 	},
 	{
@@ -431,12 +383,10 @@
 			"created_at": "2019-11-1",
 			"artist": 12,
 			"album_type": "미니 5집",
-			"album_image": [
-				"./img/album/26.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/26.jpg",
 			"price_with_ticket": 20800,
-			"price_without_ticket": 17800.0
+			"price_without_ticket": 17800,
+			"artist_name": "아이유"
 		}
 	},
 	{
@@ -448,12 +398,10 @@
 			"created_at": "2021-3-1",
 			"artist": 12,
 			"album_type": "정규 5집",
-			"album_image": [
-				"./img/album/27.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/27.jpg",
 			"price_with_ticket": 20800,
-			"price_without_ticket": 17800.0
+			"price_without_ticket": 17800,
+			"artist_name": "아이유"
 		}
 	},
 	{
@@ -465,12 +413,10 @@
 			"created_at": "2020-11-1",
 			"artist": null,
 			"album_type": "정규 3집",
-			"album_image": [
-				"./img/album/28.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/28.jpg",
 			"price_with_ticket": 19300,
-			"price_without_ticket": 16300.0
+			"price_without_ticket": 16300,
+			"artist_name": "MONSTA X"
 		}
 	},
 	{
@@ -482,12 +428,25 @@
 			"created_at": "2022-4-1",
 			"artist": null,
 			"album_type": "미니 11집",
-			"album_image": [
-				"./img/album/29.jpg"
-			],
-			"music_list": "",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/29.jpg",
 			"price_with_ticket": 24500,
-			"price_without_ticket": 21500.0
+			"price_without_ticket": 21500,
+			"artist_name": "MONSTA X"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 30,
+			"name": "'FOLLOW' : FIND YOU ",
+			"agency": "스타쉽",
+			"created_at": "2019-10-1",
+			"artist": null,
+			"album_type": "미니 7집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/30.jpg",
+			"price_with_ticket": 21300,
+			"price_without_ticket": 18300,
+			"artist_name": "MONSTA X"
 		}
 	}
 ]
