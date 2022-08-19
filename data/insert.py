@@ -52,7 +52,7 @@ def makeJsonData_Artist():
       'artist_name' : artist,
       'agency' : agency,
       'artist_image' : f'{imgUrl}/artist_img/{id}.jpg',
-      'logo_image' : f'{imgUrl}/logo/{id}.jpg', # 추후 로고 이미지로 변경 필요
+      'logo_image' : f'{imgUrl}/logo/{id}.png', # 추후 로고 이미지로 변경 필요
       'gradient_color_1' : color1,
       'gradient_color_2' : color2,
     }

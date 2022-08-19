@@ -6,7 +6,7 @@
 			"artist_name": "소녀시대",
 			"agency": "SM",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/1.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/1.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/1.png",
 			"gradient_color_1": "#ff84c3",
 			"gradient_color_2": "#facce3"
 		}
@@ -18,7 +18,7 @@
 			"artist_name": "레드벨벳",
 			"agency": "SM",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/2.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/2.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/2.png",
 			"gradient_color_1": "#ff9b7b",
 			"gradient_color_2": "#ffc6b4"
 		}
@@ -30,7 +30,7 @@
 			"artist_name": "에스파",
 			"agency": "SM",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/3.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/3.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/3.png",
 			"gradient_color_1": "#9fe3fb",
 			"gradient_color_2": "#c09de2"
 		}
@@ -42,7 +42,7 @@
 			"artist_name": "BTS",
 			"agency": "HYBE",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/4.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/4.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/4.png",
 			"gradient_color_1": "#000000",
 			"gradient_color_2": "#919191"
 		}
@@ -54,7 +54,7 @@
 			"artist_name": "세븐틴",
 			"agency": "HYBE",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/5.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/5.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/5.png",
 			"gradient_color_1": "#f6c9c8",
 			"gradient_color_2": "#92a8d1"
 		}
@@ -66,7 +66,7 @@
 			"artist_name": "블랙핑크",
 			"agency": "YG",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/6.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/6.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/6.png",
 			"gradient_color_1": "#f7a7bb",
 			"gradient_color_2": "#000000"
 		}
@@ -78,7 +78,7 @@
 			"artist_name": "트와이스",
 			"agency": "JYP",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/7.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/7.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/7.png",
 			"gradient_color_1": "#ff5fa2",
 			"gradient_color_2": "#fcc89b"
 		}
@@ -90,7 +90,7 @@
 			"artist_name": "있지",
 			"agency": "JYP",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/8.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/8.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/8.png",
 			"gradient_color_1": "#eb1b9f",
 			"gradient_color_2": "#fccdeb"
 		}
@@ -102,7 +102,7 @@
 			"artist_name": "아이브",
 			"agency": "스타쉽",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/9.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/9.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/9.png",
 			"gradient_color_1": "#000000",
 			"gradient_color_2": "#9c796e"
 		}
@@ -114,7 +114,7 @@
 			"artist_name": "몬스타엑스",
 			"agency": "스타쉽",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/10.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/10.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/10.png",
 			"gradient_color_1": "#00008b",
 			"gradient_color_2": "#b5008c"
 		}
@@ -126,7 +126,7 @@
 			"artist_name": "아이들",
 			"agency": "큐브",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/11.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/11.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/11.png",
 			"gradient_color_1": "#e11900",
 			"gradient_color_2": "#7e00bf"
 		}
@@ -138,7 +138,7 @@
 			"artist_name": "아이유",
 			"agency": "이담",
 			"artist_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/artist_img/12.jpg",
-			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/12.jpg",
+			"logo_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/logo/12.png",
 			"gradient_color_1": "#e4e724",
 			"gradient_color_2": "#fdff7f"
 		}

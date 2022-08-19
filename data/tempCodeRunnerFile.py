@@ -1,0 +1,1 @@
+https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com
