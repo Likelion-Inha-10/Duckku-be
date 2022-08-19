@@ -448,5 +448,50 @@
 			"price_without_ticket": 18300,
 			"artist_name": "MONSTA X"
 		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 31,
+			"name": "CHECKMATE",
+			"agency": "JYP",
+			"created_at": "2022-7-1",
+			"artist": null,
+			"album_type": "미니 5집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/31.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "ITZY"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 32,
+			"name": "Not Shy",
+			"agency": "JYP",
+			"created_at": "2020-8-1",
+			"artist": null,
+			"album_type": "미니 3집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/32.jpg",
+			"price_with_ticket": 24500,
+			"price_without_ticket": 21500,
+			"artist_name": "ITZY"
+		}
+	},
+	{
+		"model": "album.Album",
+		"fields": {
+			"id": 33,
+			"name": "IT'z ICY",
+			"agency": "JYP",
+			"created_at": "2019-7-1",
+			"artist": null,
+			"album_type": "미니 1집",
+			"album_image": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_album_img/33ㄴ.jpg",
+			"price_with_ticket": 20800,
+			"price_without_ticket": 17800,
+			"artist_name": "ITZY"
+		}
 	}
 ]
