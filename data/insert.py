@@ -149,7 +149,7 @@ def makeJsonData_Photocard():
 
   i=0 # for indexing pk
   for index in range(6):
-    for i, name, album in zip(name_list, album_name_list):
+    for name, album in zip(name_list, album_name_list):
         photocard_data=OrderedDict()
         photocard_data["model"]="album.Photocard"
         photocard_data["fields"]={
@@ -168,8 +168,7 @@ def makeJsonData_Photocard():
     json.dump(photocard_data_list, make_file, ensure_ascii=False, indent="\t")
 
 # 각 모델에 대해 makeJsonData 함수 실행
-#makeJsonData_Artist()
-#makeJsonData_Music()
-#makeJsonData_Album()
+makeJsonData_Artist()
+makeJsonData_Music()
+makeJsonData_Album()
 makeJsonData_Photocard()
-

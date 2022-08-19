@@ -4,7 +4,7 @@
 		"fields": {
 			"id": 1,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/티파니0",
 			"name": "티파니"
 		}
@@ -54,7 +54,7 @@
 		"fields": {
 			"id": 6,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/최지수0",
 			"name": "최지수"
 		}
@@ -64,7 +64,7 @@
 		"fields": {
 			"id": 7,
 			"artist": 5,
-			"album_id": 12,
+			"album_id": 13,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/승관0",
 			"name": "승관"
 		}
@@ -74,7 +74,7 @@
 		"fields": {
 			"id": 8,
 			"artist": 1,
-			"album_id": 3,
+			"album_id": 2,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/수영0",
 			"name": "수영"
 		}
@@ -84,7 +84,7 @@
 		"fields": {
 			"id": 9,
 			"artist": 11,
-			"album_id": 22,
+			"album_id": 23,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/조미연0",
 			"name": "조미연"
 		}
@@ -104,7 +104,7 @@
 		"fields": {
 			"id": 11,
 			"artist": 8,
-			"album_id": 31,
+			"album_id": 33,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/류진0",
 			"name": "류진"
 		}
@@ -114,7 +114,7 @@
 		"fields": {
 			"id": 12,
 			"artist": 7,
-			"album_id": 18,
+			"album_id": 17,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정연0",
 			"name": "정연"
 		}
@@ -144,7 +144,7 @@
 		"fields": {
 			"id": 15,
 			"artist": 4,
-			"album_id": 10,
+			"album_id": 11,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/슈가0",
 			"name": "슈가"
 		}
@@ -164,7 +164,7 @@
 		"fields": {
 			"id": 17,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유나0",
 			"name": "유나"
 		}
@@ -174,7 +174,7 @@
 		"fields": {
 			"id": 18,
 			"artist": 10,
-			"album_id": 30,
+			"album_id": 29,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/형원0",
 			"name": "형원"
 		}
@@ -184,7 +184,7 @@
 		"fields": {
 			"id": 19,
 			"artist": 6,
-			"album_id": 16,
+			"album_id": 15,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지수0",
 			"name": "지수"
 		}
@@ -204,7 +204,7 @@
 		"fields": {
 			"id": 21,
 			"artist": 4,
-			"album_id": 9,
+			"album_id": 11,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지민0",
 			"name": "지민"
 		}
@@ -224,7 +224,7 @@
 		"fields": {
 			"id": 23,
 			"artist": 8,
-			"album_id": 31,
+			"album_id": 33,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채령0",
 			"name": "채령"
 		}
@@ -234,7 +234,7 @@
 		"fields": {
 			"id": 24,
 			"artist": 10,
-			"album_id": 30,
+			"album_id": 28,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/셔누0",
 			"name": "셔누"
 		}
@@ -254,7 +254,7 @@
 		"fields": {
 			"id": 26,
 			"artist": 10,
-			"album_id": 28,
+			"album_id": 29,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/주현0",
 			"name": "주현"
 		}
@@ -294,7 +294,7 @@
 		"fields": {
 			"id": 30,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/윈터0",
 			"name": "윈터"
 		}
@@ -304,7 +304,7 @@
 		"fields": {
 			"id": 31,
 			"artist": 2,
-			"album_id": 4,
+			"album_id": 5,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/아이린0",
 			"name": "아이린"
 		}
@@ -314,7 +314,7 @@
 		"fields": {
 			"id": 32,
 			"artist": 7,
-			"album_id": 17,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채영0",
 			"name": "채영"
 		}
@@ -344,7 +344,7 @@
 		"fields": {
 			"id": 35,
 			"artist": 10,
-			"album_id": 29,
+			"album_id": 28,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/원호1",
 			"name": "원호"
 		}
@@ -354,7 +354,7 @@
 		"fields": {
 			"id": 36,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/웬디1",
 			"name": "웬디"
 		}
@@ -374,7 +374,7 @@
 		"fields": {
 			"id": 38,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유리1",
 			"name": "유리"
 		}
@@ -394,7 +394,7 @@
 		"fields": {
 			"id": 40,
 			"artist": 5,
-			"album_id": 14,
+			"album_id": 13,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/승관1",
 			"name": "승관"
 		}
@@ -414,7 +414,7 @@
 		"fields": {
 			"id": 42,
 			"artist": 11,
-			"album_id": 23,
+			"album_id": 22,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/조미연1",
 			"name": "조미연"
 		}
@@ -444,7 +444,7 @@
 		"fields": {
 			"id": 45,
 			"artist": 7,
-			"album_id": 18,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정연1",
 			"name": "정연"
 		}
@@ -484,7 +484,7 @@
 		"fields": {
 			"id": 49,
 			"artist": 2,
-			"album_id": 6,
+			"album_id": 5,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/예리1",
 			"name": "예리"
 		}
@@ -494,7 +494,7 @@
 		"fields": {
 			"id": 50,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유나1",
 			"name": "유나"
 		}
@@ -514,7 +514,7 @@
 		"fields": {
 			"id": 52,
 			"artist": 6,
-			"album_id": 16,
+			"album_id": 15,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지수1",
 			"name": "지수"
 		}
@@ -554,7 +554,7 @@
 		"fields": {
 			"id": 56,
 			"artist": 8,
-			"album_id": 32,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채령1",
 			"name": "채령"
 		}
@@ -614,7 +614,7 @@
 		"fields": {
 			"id": 62,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/쯔위1",
 			"name": "쯔위"
 		}
@@ -624,7 +624,7 @@
 		"fields": {
 			"id": 63,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/윈터1",
 			"name": "윈터"
 		}
@@ -634,7 +634,7 @@
 		"fields": {
 			"id": 64,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/아이린1",
 			"name": "아이린"
 		}
@@ -644,7 +644,7 @@
 		"fields": {
 			"id": 65,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채영1",
 			"name": "채영"
 		}
@@ -654,7 +654,7 @@
 		"fields": {
 			"id": 66,
 			"artist": 4,
-			"album_id": 10,
+			"album_id": 9,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정국1",
 			"name": "정국"
 		}
@@ -674,7 +674,7 @@
 		"fields": {
 			"id": 68,
 			"artist": 10,
-			"album_id": 29,
+			"album_id": 30,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/원호2",
 			"name": "원호"
 		}
@@ -684,7 +684,7 @@
 		"fields": {
 			"id": 69,
 			"artist": 2,
-			"album_id": 6,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/웬디2",
 			"name": "웬디"
 		}
@@ -704,7 +704,7 @@
 		"fields": {
 			"id": 71,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유리2",
 			"name": "유리"
 		}
@@ -734,7 +734,7 @@
 		"fields": {
 			"id": 74,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/수영2",
 			"name": "수영"
 		}
@@ -744,7 +744,7 @@
 		"fields": {
 			"id": 75,
 			"artist": 11,
-			"album_id": 23,
+			"album_id": 24,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/조미연2",
 			"name": "조미연"
 		}
@@ -764,7 +764,7 @@
 		"fields": {
 			"id": 77,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/류진2",
 			"name": "류진"
 		}
@@ -774,7 +774,7 @@
 		"fields": {
 			"id": 78,
 			"artist": 7,
-			"album_id": 17,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정연2",
 			"name": "정연"
 		}
@@ -794,7 +794,7 @@
 		"fields": {
 			"id": 80,
 			"artist": 5,
-			"album_id": 12,
+			"album_id": 13,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/디노2",
 			"name": "디노"
 		}
@@ -804,7 +804,7 @@
 		"fields": {
 			"id": 81,
 			"artist": 4,
-			"album_id": 9,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/슈가2",
 			"name": "슈가"
 		}
@@ -844,7 +844,7 @@
 		"fields": {
 			"id": 85,
 			"artist": 6,
-			"album_id": 16,
+			"album_id": 15,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지수2",
 			"name": "지수"
 		}
@@ -854,7 +854,7 @@
 		"fields": {
 			"id": 86,
 			"artist": 9,
-			"album_id": 21,
+			"album_id": 20,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/레이2",
 			"name": "레이"
 		}
@@ -874,7 +874,7 @@
 		"fields": {
 			"id": 88,
 			"artist": 5,
-			"album_id": 13,
+			"album_id": 12,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/원우2",
 			"name": "원우"
 		}
@@ -894,7 +894,7 @@
 		"fields": {
 			"id": 90,
 			"artist": 10,
-			"album_id": 28,
+			"album_id": 30,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/셔누2",
 			"name": "셔누"
 		}
@@ -904,7 +904,7 @@
 		"fields": {
 			"id": 91,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/카리나2",
 			"name": "카리나"
 		}
@@ -914,7 +914,7 @@
 		"fields": {
 			"id": 92,
 			"artist": 10,
-			"album_id": 28,
+			"album_id": 30,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/주현2",
 			"name": "주현"
 		}
@@ -944,7 +944,7 @@
 		"fields": {
 			"id": 95,
 			"artist": 7,
-			"album_id": 18,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/쯔위2",
 			"name": "쯔위"
 		}
@@ -964,7 +964,7 @@
 		"fields": {
 			"id": 97,
 			"artist": 2,
-			"album_id": 4,
+			"album_id": 6,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/아이린2",
 			"name": "아이린"
 		}
@@ -974,7 +974,7 @@
 		"fields": {
 			"id": 98,
 			"artist": 7,
-			"album_id": 17,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채영2",
 			"name": "채영"
 		}
@@ -1014,7 +1014,7 @@
 		"fields": {
 			"id": 102,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/웬디3",
 			"name": "웬디"
 		}
@@ -1024,7 +1024,7 @@
 		"fields": {
 			"id": 103,
 			"artist": 5,
-			"album_id": 13,
+			"album_id": 12,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/디에잇3",
 			"name": "디에잇"
 		}
@@ -1034,7 +1034,7 @@
 		"fields": {
 			"id": 104,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유리3",
 			"name": "유리"
 		}
@@ -1044,7 +1044,7 @@
 		"fields": {
 			"id": 105,
 			"artist": 8,
-			"album_id": 31,
+			"album_id": 33,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/최지수3",
 			"name": "최지수"
 		}
@@ -1054,7 +1054,7 @@
 		"fields": {
 			"id": 106,
 			"artist": 5,
-			"album_id": 14,
+			"album_id": 13,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/승관3",
 			"name": "승관"
 		}
@@ -1084,7 +1084,7 @@
 		"fields": {
 			"id": 109,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/다현3",
 			"name": "다현"
 		}
@@ -1094,7 +1094,7 @@
 		"fields": {
 			"id": 110,
 			"artist": 8,
-			"album_id": 32,
+			"album_id": 33,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/류진3",
 			"name": "류진"
 		}
@@ -1104,7 +1104,7 @@
 		"fields": {
 			"id": 111,
 			"artist": 7,
-			"album_id": 17,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정연3",
 			"name": "정연"
 		}
@@ -1114,7 +1114,7 @@
 		"fields": {
 			"id": 112,
 			"artist": 9,
-			"album_id": 20,
+			"album_id": 21,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/가을3",
 			"name": "가을"
 		}
@@ -1134,7 +1134,7 @@
 		"fields": {
 			"id": 114,
 			"artist": 4,
-			"album_id": 11,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/슈가3",
 			"name": "슈가"
 		}
@@ -1174,7 +1174,7 @@
 		"fields": {
 			"id": 118,
 			"artist": 6,
-			"album_id": 16,
+			"album_id": 15,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지수3",
 			"name": "지수"
 		}
@@ -1184,7 +1184,7 @@
 		"fields": {
 			"id": 119,
 			"artist": 9,
-			"album_id": 20,
+			"album_id": 21,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/레이3",
 			"name": "레이"
 		}
@@ -1194,7 +1194,7 @@
 		"fields": {
 			"id": 120,
 			"artist": 4,
-			"album_id": 10,
+			"album_id": 11,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지민3",
 			"name": "지민"
 		}
@@ -1204,7 +1204,7 @@
 		"fields": {
 			"id": 121,
 			"artist": 5,
-			"album_id": 14,
+			"album_id": 12,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/원우3",
 			"name": "원우"
 		}
@@ -1224,7 +1224,7 @@
 		"fields": {
 			"id": 123,
 			"artist": 10,
-			"album_id": 29,
+			"album_id": 30,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/셔누3",
 			"name": "셔누"
 		}
@@ -1234,7 +1234,7 @@
 		"fields": {
 			"id": 124,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/카리나3",
 			"name": "카리나"
 		}
@@ -1244,7 +1244,7 @@
 		"fields": {
 			"id": 125,
 			"artist": 10,
-			"album_id": 30,
+			"album_id": 28,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/주현3",
 			"name": "주현"
 		}
@@ -1254,7 +1254,7 @@
 		"fields": {
 			"id": 126,
 			"artist": 4,
-			"album_id": 11,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/RM3",
 			"name": "RM"
 		}
@@ -1264,7 +1264,7 @@
 		"fields": {
 			"id": 127,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지젤3",
 			"name": "지젤"
 		}
@@ -1274,7 +1274,7 @@
 		"fields": {
 			"id": 128,
 			"artist": 7,
-			"album_id": 18,
+			"album_id": 17,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/쯔위3",
 			"name": "쯔위"
 		}
@@ -1294,7 +1294,7 @@
 		"fields": {
 			"id": 130,
 			"artist": 2,
-			"album_id": 6,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/아이린3",
 			"name": "아이린"
 		}
@@ -1324,7 +1324,7 @@
 		"fields": {
 			"id": 133,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/티파니4",
 			"name": "티파니"
 		}
@@ -1344,7 +1344,7 @@
 		"fields": {
 			"id": 135,
 			"artist": 2,
-			"album_id": 4,
+			"album_id": 5,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/웬디4",
 			"name": "웬디"
 		}
@@ -1354,7 +1354,7 @@
 		"fields": {
 			"id": 136,
 			"artist": 5,
-			"album_id": 12,
+			"album_id": 13,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/디에잇4",
 			"name": "디에잇"
 		}
@@ -1374,7 +1374,7 @@
 		"fields": {
 			"id": 138,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/최지수4",
 			"name": "최지수"
 		}
@@ -1384,7 +1384,7 @@
 		"fields": {
 			"id": 139,
 			"artist": 5,
-			"album_id": 12,
+			"album_id": 14,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/승관4",
 			"name": "승관"
 		}
@@ -1394,7 +1394,7 @@
 		"fields": {
 			"id": 140,
 			"artist": 1,
-			"album_id": 3,
+			"album_id": 2,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/수영4",
 			"name": "수영"
 		}
@@ -1414,7 +1414,7 @@
 		"fields": {
 			"id": 142,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/다현4",
 			"name": "다현"
 		}
@@ -1424,7 +1424,7 @@
 		"fields": {
 			"id": 143,
 			"artist": 8,
-			"album_id": 32,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/류진4",
 			"name": "류진"
 		}
@@ -1434,7 +1434,7 @@
 		"fields": {
 			"id": 144,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 18,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정연4",
 			"name": "정연"
 		}
@@ -1464,7 +1464,7 @@
 		"fields": {
 			"id": 147,
 			"artist": 4,
-			"album_id": 11,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/슈가4",
 			"name": "슈가"
 		}
@@ -1484,7 +1484,7 @@
 		"fields": {
 			"id": 149,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유나4",
 			"name": "유나"
 		}
@@ -1524,7 +1524,7 @@
 		"fields": {
 			"id": 153,
 			"artist": 4,
-			"album_id": 10,
+			"album_id": 11,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지민4",
 			"name": "지민"
 		}
@@ -1534,7 +1534,7 @@
 		"fields": {
 			"id": 154,
 			"artist": 5,
-			"album_id": 12,
+			"album_id": 14,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/원우4",
 			"name": "원우"
 		}
@@ -1544,7 +1544,7 @@
 		"fields": {
 			"id": 155,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채령4",
 			"name": "채령"
 		}
@@ -1574,7 +1574,7 @@
 		"fields": {
 			"id": 158,
 			"artist": 10,
-			"album_id": 29,
+			"album_id": 30,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/주현4",
 			"name": "주현"
 		}
@@ -1584,7 +1584,7 @@
 		"fields": {
 			"id": 159,
 			"artist": 4,
-			"album_id": 10,
+			"album_id": 9,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/RM4",
 			"name": "RM"
 		}
@@ -1604,7 +1604,7 @@
 		"fields": {
 			"id": 161,
 			"artist": 7,
-			"album_id": 17,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/쯔위4",
 			"name": "쯔위"
 		}
@@ -1614,7 +1614,7 @@
 		"fields": {
 			"id": 162,
 			"artist": 3,
-			"album_id": 8,
+			"album_id": 7,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/윈터4",
 			"name": "윈터"
 		}
@@ -1624,7 +1624,7 @@
 		"fields": {
 			"id": 163,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 6,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/아이린4",
 			"name": "아이린"
 		}
@@ -1634,7 +1634,7 @@
 		"fields": {
 			"id": 164,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 17,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채영4",
 			"name": "채영"
 		}
@@ -1654,7 +1654,7 @@
 		"fields": {
 			"id": 166,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/티파니5",
 			"name": "티파니"
 		}
@@ -1674,7 +1674,7 @@
 		"fields": {
 			"id": 168,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/웬디5",
 			"name": "웬디"
 		}
@@ -1704,7 +1704,7 @@
 		"fields": {
 			"id": 171,
 			"artist": 8,
-			"album_id": 32,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/최지수5",
 			"name": "최지수"
 		}
@@ -1714,7 +1714,7 @@
 		"fields": {
 			"id": 172,
 			"artist": 5,
-			"album_id": 13,
+			"album_id": 12,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/승관5",
 			"name": "승관"
 		}
@@ -1724,7 +1724,7 @@
 		"fields": {
 			"id": 173,
 			"artist": 1,
-			"album_id": 2,
+			"album_id": 3,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/수영5",
 			"name": "수영"
 		}
@@ -1734,7 +1734,7 @@
 		"fields": {
 			"id": 174,
 			"artist": 11,
-			"album_id": 22,
+			"album_id": 24,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/조미연5",
 			"name": "조미연"
 		}
@@ -1744,7 +1744,7 @@
 		"fields": {
 			"id": 175,
 			"artist": 7,
-			"album_id": 19,
+			"album_id": 17,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/다현5",
 			"name": "다현"
 		}
@@ -1774,7 +1774,7 @@
 		"fields": {
 			"id": 178,
 			"artist": 9,
-			"album_id": 21,
+			"album_id": 20,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/가을5",
 			"name": "가을"
 		}
@@ -1794,7 +1794,7 @@
 		"fields": {
 			"id": 180,
 			"artist": 4,
-			"album_id": 9,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/슈가5",
 			"name": "슈가"
 		}
@@ -1804,7 +1804,7 @@
 		"fields": {
 			"id": 181,
 			"artist": 2,
-			"album_id": 5,
+			"album_id": 4,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/예리5",
 			"name": "예리"
 		}
@@ -1814,7 +1814,7 @@
 		"fields": {
 			"id": 182,
 			"artist": 8,
-			"album_id": 33,
+			"album_id": 31,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/유나5",
 			"name": "유나"
 		}
@@ -1834,7 +1834,7 @@
 		"fields": {
 			"id": 184,
 			"artist": 6,
-			"album_id": 15,
+			"album_id": 16,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지수5",
 			"name": "지수"
 		}
@@ -1844,7 +1844,7 @@
 		"fields": {
 			"id": 185,
 			"artist": 9,
-			"album_id": 20,
+			"album_id": 21,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/레이5",
 			"name": "레이"
 		}
@@ -1874,7 +1874,7 @@
 		"fields": {
 			"id": 188,
 			"artist": 8,
-			"album_id": 31,
+			"album_id": 32,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채령5",
 			"name": "채령"
 		}
@@ -1884,7 +1884,7 @@
 		"fields": {
 			"id": 189,
 			"artist": 10,
-			"album_id": 30,
+			"album_id": 28,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/셔누5",
 			"name": "셔누"
 		}
@@ -1904,7 +1904,7 @@
 		"fields": {
 			"id": 191,
 			"artist": 10,
-			"album_id": 29,
+			"album_id": 28,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/주현5",
 			"name": "주현"
 		}
@@ -1914,7 +1914,7 @@
 		"fields": {
 			"id": 192,
 			"artist": 4,
-			"album_id": 11,
+			"album_id": 10,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/RM5",
 			"name": "RM"
 		}
@@ -1924,7 +1924,7 @@
 		"fields": {
 			"id": 193,
 			"artist": 3,
-			"album_id": 7,
+			"album_id": 8,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/지젤5",
 			"name": "지젤"
 		}
@@ -1964,7 +1964,7 @@
 		"fields": {
 			"id": 197,
 			"artist": 7,
-			"album_id": 18,
+			"album_id": 19,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/채영5",
 			"name": "채영"
 		}
@@ -1974,7 +1974,7 @@
 		"fields": {
 			"id": 198,
 			"artist": 4,
-			"album_id": 9,
+			"album_id": 11,
 			"img": "https://ll-inha-hkt.s3.ap-northeast-2.amazonaws.com/sang_photocard_img/정국5",
 			"name": "정국"
 		}
